@@ -1,0 +1,10 @@
+
+{
+  "manifest_version": 3,
+  "name": "File to PDF Converter",
+  "version": "1.0.0",
+  "description": "Convert files into PDF locally in your browser.",
+  "action": {
+    "default_popup": "index.html"
+  }
+}

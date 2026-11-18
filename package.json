@@ -1,0 +1,19 @@
+
+{
+  "name": "extention",
+  "version": "1.0.0",
+  "description": "Local file to PDF Chrome extension",
+  "scripts": {
+    "build": "esbuild src/main.js --bundle --format=iife --outfile=dist/index.js"
+  },
+  "dependencies": {
+    "@html2canvas/html2canvas": "*",
+    "mammoth": "*",
+    "pdf-lib": "*",
+    "pptx-browser": "*",
+    "xlsx": "*"
+  },
+  "devDependencies": {
+    "esbuild": "*"
+  }
+}
